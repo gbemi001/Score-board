@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-image: url('gpitch.webp');
+    background-size: cover;
+}
+@font-face{
+    src:url("advanced_led_board-7.ttf");
+    font-family: Score-board;
+}
+@font-face{
+    src:url("CursedTimerULiL.ttf");
+    font-family: Score;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#home-score, #away-score {
+    margin-left: 20px;
+    color: #F94F6D;
+    font-size: 80px;
+    font-family: Score;
+    background-color: #080001;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    width: 50px;
+    font-size: 40px;
+    font-family: Score-board;
+    color: #EEEEEE
+}
+#add-button, #subtract-button {
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-top: 0px;
+    background: inherit;
+    font-weight: bolder;
+}
